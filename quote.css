@@ -1,0 +1,40 @@
+*{
+    margin : 0;
+    padding : 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#wrap{
+    background-color: #d3d3d3;
+}
+
+.superQuote{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: end;
+}
+
+.miniQuote{
+
+    padding: 30px;
+    margin: 20px;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+
+}
+.ref{
+    font-style: italic;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+
+i{
+    padding: 5px;
+    position: relative;
+    left:20px
+}
+
+.miniQuote:hover{
+    cursor: pointer;
+}
